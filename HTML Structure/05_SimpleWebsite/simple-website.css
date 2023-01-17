@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+ul{
+    background-color: #444;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+li{
+    display: inline-block;
+    text-size-adjust: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+h1{
+    text-size-adjust: 28px;
+}
+header p{
+    font-style: italic;
+    text-size-adjust: 24px;
+}
+section{
+    margin-left: 20px;
+}
+footer{
+    background-color: #444;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
