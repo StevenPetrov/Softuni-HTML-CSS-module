@@ -1,0 +1,14 @@
+h1{
+    font-size: 42;
+    color: red;
+  }
+.odd{
+    color: rgb(10, 227, 43);
+}
+#h5welcome{
+    color: blueviolet;
+}
+#test, .odd{
+    /* background-color: rgb(255, 0, 212); */
+    color: blue;
+}
