@@ -1,0 +1,23 @@
+@import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
+
+a:link{
+    text-decoration: none;
+}
+.last{
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #333333;
+    
+}
+
+.first{
+    background-color: transparent;
+    border-radius: 30px;
+    text-decoration: none;
+    
+}
+
+.last:hover{
+    background-color: green;
+}
