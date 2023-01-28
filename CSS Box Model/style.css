@@ -1,0 +1,41 @@
+*,
+*::after
+*::before{
+    box-sizing: border-box;
+}
+
+ 
+/* p{
+    background-color: orange;
+
+}
+p.lorem50{
+    background-color: coral;
+    max-height: 50px;
+    overflow: auto;
+}
+
+span.inline{
+    background-color: aqua ;
+}
+
+h1{
+    background-color: blanchedalmond;
+} */
+
+.block{
+    background-color: plum;
+    padding: 30px 30px 30px 30px;
+    margin: 80px 40px;
+    border: 2px dashed;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.inline{
+    display: inline-block;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 20px;
+
+}
