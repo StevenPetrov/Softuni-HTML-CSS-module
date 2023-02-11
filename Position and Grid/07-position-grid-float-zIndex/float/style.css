@@ -1,0 +1,21 @@
+img {
+  width: 200px;
+  float: right;
+  margin: 20px;
+
+}
+
+.float-container {
+  border: 3px dashed black;
+}
+
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+

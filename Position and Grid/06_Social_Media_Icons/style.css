@@ -1,0 +1,28 @@
+@import "https://use.fontawesome.com/releases/v6.2.0/css/all.css";
+
+li{
+    display: inline-block;
+    background-color: lightgrey;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+
+.fb:hover{
+    color: blue
+}
+.tw:hover{
+    color: lightskyblue
+}
+.gp:hover{
+    color: red
+}
+.ln:hover{
+    color: lightskyblue
+}
+.in:hover{
+    color: lightskyblue
+}

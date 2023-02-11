@@ -1,0 +1,72 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "article aside"
+    "article aside"
+    "article aside";
+    grid-template-columns: 75%;
+    gap: 10px;
+}
+
+header.top{
+    grid-area: header;
+    display: inline-block;
+    border-bottom: 3px solid #aaa;
+    margin: 5% 5% 0% 5%;
+    padding: 0px;
+}
+
+header p{
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0px;
+
+}
+header ul{
+    margin-left: 70%;
+}
+header ul li{
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(0, 102, 0);
+    font-size: 1.2rem;
+
+    
+}
+
+article{
+    grid-area: article;
+    font-family: Georgia, serif;
+}
+article header{
+    margin: 3% 5% 0% 6%;
+}
+article section{
+    margin: 0% 6%;
+    font-size: 22px;
+}
+.a1 img {
+
+    float: right;
+    margin: 10px;
+  }
+.a2 img {
+
+    float: left;
+    margin: 10px;
+  }
+
+aside{
+    grid-area: aside;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+aside ul li {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
