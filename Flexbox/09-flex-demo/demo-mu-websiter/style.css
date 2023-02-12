@@ -1,0 +1,43 @@
+@import "https://use.fontawesome.com/releases/v6.2.0/css/all.css";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: darkblue;
+    padding: 12px 32px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+} 
+.navigation{
+    margin-right: auto;
+}
+header .logo{
+    margin-right: auto;
+}
+.navigation .nav-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.navigation .list{
+    display: flex;
+    gap: 25px;
+
+}
+
+.btn{
+    all: unset;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 12px;
+}
+
