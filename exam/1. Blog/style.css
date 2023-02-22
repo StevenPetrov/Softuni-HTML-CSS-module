@@ -1,0 +1,120 @@
+/* 
+color - bg - #f6e0b5
+box bg - #f6e0b5
+text - #5e4b58
+*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #5e4b58;
+}
+
+.main{
+    width: 800px;
+    height: 400px;
+    background-color: #f6e0b5;
+    display: flex;
+    margin: 30px;  /* optional */
+}
+
+.pics{
+    max-width: 70%;
+    padding: 36px;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    align-items: baseline;
+}
+
+.box1{
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 230px;
+    box-shadow: 0px 0px 40px 1px rgb(120, 116, 116);
+}
+.box1 img{
+    max-height: 82%;
+    width: 100%;
+}
+.box1 .name{
+    background-color: #66545e;
+    color: white;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+
+.box2{
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 230px;
+    box-shadow: 0px 0px 40px 1px rgb(120, 116, 116);
+}
+.box2 img{
+    max-height: 82%;
+    width: 100%;
+}
+.box2 .name{
+    background-color: #66545e;
+    color: white;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+
+.box3{
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 230px;
+    box-shadow: 0px 0px 40px 1px rgb(120, 116, 116);
+    
+}
+.box3 img{
+    max-height: 82%;
+    width: 100%;
+}
+.box3 .name{
+    background-color: #66545e;
+    color: white;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.box4{
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 230px;
+    box-shadow: 0px 0px 40px 1px rgb(120, 116, 116);
+    
+}
+.box4 img{
+    max-height: 82%;
+    width: 100%;
+}
+.box4 .name{
+    background-color: #66545e;
+    color: white;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+
+.text{
+    padding: 40px;
+}
+.text .head{
+    margin-bottom: 10px;
+}
+.text .ctg li{
+    margin-bottom: 5px;
+}
+.text .ctg li i{
+    margin-right: 8px;
+}

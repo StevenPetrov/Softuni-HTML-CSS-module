@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+/* btn color - #370511 */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.head{
+    background-image: url(images/landing-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+.head .header{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+.head .logo{
+    font-size: 30px;
+    font-weight: 800;
+}
+.head .nav{
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+.btn{
+    border: none;
+    background-color: #370511;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+.head .text{
+    height: 350px;
+    width: 600px;
+    margin-left: 20%;
+    margin-top: 12%;
+}
+.head .text h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.head .text h2{
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.head .text p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.head .text .ff{
+    padding-bottom: 40px;
+}
+
+.places h2{
+    text-align: center;    
+    margin-top: 50px;
+    font-size: 42px;
+}
+.places h4{
+    text-align: center;
+    color: rgb(162, 155, 155);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.card-button{
+    margin-top: 5%;
+    margin-left: 22%;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.places .cards{
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card1{
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+}
+.card1 img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card1 .card-text h1{
+    text-align: center;
+    margin: 26px;
+}
+.card1 .card-text p{
+    margin: 12px 30px;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+}
+
+
+.footer{
+    margin-top: 100px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+.footer .logo{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.footer .deals{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer .about{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer .social{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social ul{
+    display: flex;
+    gap: 20px;
+}
+
+.footer .social ul li{
+    margin-top: 5px;
+    font-size: 25px;
+}

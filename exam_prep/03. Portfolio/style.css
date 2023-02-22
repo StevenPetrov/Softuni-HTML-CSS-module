@@ -61,6 +61,65 @@ body{
  }
 
  /* ____________________________________________________________________ */
+/* section 2 */
+/* ____________________________________________________________________ */
+
+.section2{
+    background-color: #efefef;
+    margin: 40px;
+    height: 800px;
+}
+.section2 .hero{
+    display: flex;
+}
+.section2 .hero .image{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    margin-left: auto;
+ }
+ .section2 .hero .text{
+    width: 46%;
+    margin: 100px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+}
+.section2 .hero .text .left-line{
+    display: inline-block;
+    border-bottom: solid 2px black;
+    padding: 50px;
+    margin-right: 30px;
+ }
+.section2 .hero .text h1{
+    display: inline-block;
+    font-size: 48px;
+    font-weight:300;
+    margin-bottom: 40px;
+ }
+.section2 .hero .text h1 .Apollo{
+   font-size: 48px;
+   font-weight:700;
+}
+.section2 .hero .text p{
+    font-size: 19px;
+    font-style: italic;
+    font-weight:500;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+ }
+ .section2 .hero .text .social{
+    display: flex;
+ }
+ .section2 .hero .text .social li i{
+    font-size: 40px;
+    color: gray;
+    margin-right: 30px;
+ }
+
+ /* ____________________________________________________________________ */
 /* section 3 */
 /* ____________________________________________________________________ */
 
@@ -123,3 +182,96 @@ body{
     margin: 80px
 
  }
+
+  /* ____________________________________________________________________ */
+/* section 5 */
+/* ____________________________________________________________________ */
+.section5{
+    background-color: #efefef;
+    margin: 40px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.section5 .img2{
+    scale: 1.8;
+}
+
+ /* ____________________________________________________________________ */
+/* section 6 */
+/* ____________________________________________________________________ */
+
+
+.section6{
+    background-color: #efefef;
+    margin: 40px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section6 .h1{
+    font-size: 48px;
+    font-weight:300;
+    margin-bottom: 50px;
+    margin-top: 100px;
+ }
+.section6 .h1 .Say{
+   font-size: 48px;
+   font-weight:700;
+}
+.section6 .p{
+    font-size: 16px;
+    font-style: italic;
+    font-weight:500;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    width: 60%;
+    text-align: center;
+ }
+ .section6 .form{
+    padding: 30px;
+    width: 40%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas:
+    "email subject"
+    "msg msg"
+    "btn btn";
+ }
+ .section6 input{
+    background-color: transparent;
+    padding: 0.5rem;
+ }
+ .section6 textarea{
+    background-color: transparent;
+ }
+ .section6 .btn{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+ }
+
+ .section6 .email{
+    grid-area: email;
+  }
+  .section6 .subject{
+    grid-area: subject;
+  }
+
+  .section6 .msg{
+    grid-area: msg;
+  }
+  .section6 .btn{
+    grid-area: btn;
+  }
+  .section6 .footer{
+    margin-top: auto;
+    margin-bottom: 30px;
+  }
